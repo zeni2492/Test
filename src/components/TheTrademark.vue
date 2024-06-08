@@ -30,6 +30,7 @@ import ToClientListButton from '../components/buttons/ToClientListButton.vue';
         flex-direction: column;
         height: 90px;
         padding: 10px;
+        text-align: center;
     }
     h2{
         text-align: c;

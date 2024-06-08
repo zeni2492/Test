@@ -1,5 +1,5 @@
 <template>
-    <main class="IpDescription w-100% flex bg-white mt-8 rounded-lg justify-center ">
+    <main class="IpDescription w-100% flex bg-white mt-8 rounded-lg  ">
         <div class="w-90% px-8 flex flex-col">
             <div class="w-full flex justify-center">
                 <h1 class="my-5 w-full text-xl text-center text-Custom-Dark-Blue">Global IP information system/REGISTERED TRADEMARK-OEPM(Spain)
