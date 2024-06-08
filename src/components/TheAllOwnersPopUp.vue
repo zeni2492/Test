@@ -5,14 +5,14 @@
     </div>
 </template>
 
-<script lang="ts" setup>
-import { defineEmits } from 'vue';
+<script setup lang="ts">
 
+const emits = defineEmits();
 
-const emits = defineEmits(['close']);
+emits('close');
 const closePopUp = () => {
     emits('close');
-}
+};
 </script>
 
 <style scoped>

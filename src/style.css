@@ -7,3 +7,84 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+
+.TableSample{
+    @apply w-full flex bg-white mt-8 justify-center rounded-lg flex-col py-5 text-gray-500;
+}
+
+.TdStyle{
+    @apply border-2 pl-2 border-collapse border-opacity-40  border-gray-300;
+}
+
+.TradeMarkImage{
+    @apply w-11 h-11 border-r-2 mr-5 pr-5 cursor-pointer
+}
+
+.BorderOpacity{
+    @apply border-b-2  border-collapse border-opacity-20 border-gray-300
+}
+
+.GlobalInformationTrStyle{
+    @apply BorderOpacity h-auto flex;
+}
+
+.TheNameAddressStyle{
+    @apply border-l-2 ml-10 h-auto  BorderOpacity flex flex-row px-2
+}
+
+
+.GlobalInformationFirstColTextStyle{
+    @apply px-2 flex items-center ml-2 text-start w-56 text-gray-500
+}
+
+.GlobalInformationSecondColTextStyle{
+    @apply px-2 flex items-center
+}
+
+.ClassificationAbsoluteText{
+    @apply text-center w-24 bg-gray-300 h-8 flex justify-center items-center absolute
+}
+
+.ClassificationAbsoluteInnerText{
+    @apply ml-24 text-xl flex flex-col w-full justify-start
+}
+
+.AdressContactFirstColTextStyle{
+    @apply text-start w-56 text-gray-500 h-auto
+}
+
+.horizontalCenter{
+    @apply flex justify-start flex-col
+}
+
+.FlexRow{
+    @apply flex flex-row w-full 
+}
+
+.textStart{
+    @apply text-start h-auto my-1 flex
+}
+
+.ClassificationTrStyle{
+    @apply border-b-2 border-t-2 border-l-2 ml-10 border-gray-300 border-collapse border-opacity-20 h-auto flex flex-row
+}
+
+.TableBorder{
+    @apply border-2 border-collapse border-opacity-20 border-gray-300
+}
+
+.ActionImages{
+    @apply w-10 h-7 cursor-pointer
+}
+
+.RowNumber{
+    @apply h-8 px-2 text-white bg-Custom-Blue flex justify-center items-center 
+}
+
+.TradeMarkHistoryTdStyle{
+    @apply flex justify-start flex-col w-full ml-5
+}
+
+.IpOfficeTextStart{
+    @apply flex justify-start flex-col w-full ml-5
+}

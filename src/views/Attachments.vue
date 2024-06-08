@@ -8,6 +8,6 @@
 
 <script setup>
 import AttachmentTable from '../components/Tables/AttachmentTable.vue';
-import Actions from '../components/Actions.vue';
+import Actions from '../components/buttons/Actions.vue';
 </script>
 

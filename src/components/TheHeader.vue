@@ -6,7 +6,7 @@
         <p class="mx-2">></p>
         <h2>Coca Cola</h2>
       </div>
-      <div class="text-xl text-gray-400 cursor-pointer"> 
+      <div class="Back text-xl text-gray-400 cursor-pointer"> 
         <span class="font-thin ">&#10094;</span>
         Назад
       </div>

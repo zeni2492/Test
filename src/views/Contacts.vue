@@ -1,6 +1,6 @@
 <template>
-    <Table >
-        <div class="w-full flex items-center ">
+    <Table class="TableBody" >
+        <div class="w-full flex items-center">
             Contacts
             <HeadLineButton class="ml-2 text-Custom-Blue text-base"> Add new contact</HeadLineButton>
         </div>
@@ -26,13 +26,13 @@
             Ivanova
         </template>
         <template #middlethird>
-            +651112223334
+            <span class="break-all">+651112223334</span>
         </template>
         <template #middlefourth>
-            ivanov@ivanov.com
+            <span class="break-all">ivanov@ivanov.com</span>
         </template>
         <template  #middlefifth ">
-            <Actions style="width: 120px;"/>
+            <Actions class="actions" style="width: 120px;"/>
         </template>
         <template #firstBottom>
             Singapore
@@ -48,8 +48,8 @@
         </template>
         
         <template  #fifthBottom >
-            <div >
-                <Actions style="width: 120px;"/>
+            <div class="actions">
+                <Actions  style="width: 120px!important;"/>
             </div>
         </template>
         
@@ -57,7 +57,11 @@
 </template>
 
 <script setup>
-import Actions from '../components/Actions.vue';
-import Table from '../components/Tables/Table.vue';
+import Actions from '../components/buttons/Actions.vue';
+import Table from '../components/Tables/AddressHistoryContactTable.vue';
 import HeadLineButton from '../components/buttons/HeadLineButton.vue';
 </script>
+
+<style scoped>
+
+</style>

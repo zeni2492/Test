@@ -4,6 +4,7 @@
             Staff
             <HeadLineButton class="ml-2 text-Custom-Blue text-base"> Add  new related stuff</HeadLineButton>
         </div>
+        
         <template #firstTop > Name </template>
         <template #secondTop> Added </template>
         <template #firstMiddle> Иван Петров </template>

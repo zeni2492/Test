@@ -32,7 +32,9 @@
             NSW
         </template>
         <template #middlefifth>
+            <div class="Adress">
             Storavagen, 12 and long-long adress or state and, ZIP code
+            </div>
         </template>
         <template #firstBottom>
             Singapore
@@ -47,7 +49,7 @@
             -
         </template>
         <template #fifthBottom>
-            <div style="width: 500px">
+            <div class="Adress">
                 Storavagen, 12 and long-long adress
             </div>
         </template>
@@ -55,7 +57,24 @@
 </template>
 
 <script setup>
-import Actions from '../components/Actions.vue';
-import Table from '../components/Tables/Table.vue'
+import Actions from '../components/buttons/Actions.vue';
+import Table from '../components/Tables/AddressHistoryContactTable.vue'
 import HeadLineButton from '../components/buttons/HeadLineButton.vue';
 </script>
+
+<style scoped>
+.Adress{
+    white-space: nowrap;
+}
+@media screen and (max-width: 576px) {
+    Table{
+        height: 400px;
+    }
+    .Adress{
+        white-space: normal;
+        word-break: break-all !important;
+        width: 150px;
+    }
+    
+}
+</style>

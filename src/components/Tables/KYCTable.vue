@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-center flex-col bg-white rounded-lg py-5 mt-5 text-gray-500">
+    <div class="TableSample">
         <div class="w-full flex justify-center">
             <div class="w-95% bg-gray-200 flex flex-row items-center">
                 <h1 class="text-xl ml-2 py-2  font-normal text-gray-500 ">
@@ -60,7 +60,24 @@ import HeadLineButton from '../buttons/HeadLineButton.vue';
 
 <style scoped>
 td {
-    border: 2px solid rgba(211, 211, 211, 0.365);
+    border: 2px solid rgba(209, 213, 219, 0.365);
     padding-left: 8px;
+}
+@media screen and (max-width: 941px) {
+    .Buttons{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    td, th {
+        min-width: 20px;
+        text-align: center;
+        padding: 0 5px;
+    }
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-center flex-col bg-white rounded-lg py-5 mt-5">
+    <div class="TableSample">
         <div class="w-full flex justify-center">
             <div class="w-95% bg-gray-200 flex flex-row items-center">
                 <h1 class="text-xl ml-2 py-2  font-normal text-gray-500 ">
@@ -31,7 +31,7 @@
                         <td>No data</td>
                         <td>No data</td>
                         <td class="text-Custom-Blue">Relations</td>
-                        <td class="w-32"><slot name="actions"></slot></td>
+                        <td ><slot name="actions"></slot></td>
                     </tr>
                     <tr>
                         <td>123232332</td>
@@ -53,7 +53,6 @@
                         <td>No data</td>
                         <td><slot name="actions"></slot></td>
                     </tr>
-                <!-- </div> -->
                 </tbody>
             </table>
         </div>
@@ -66,7 +65,25 @@ import WarnButton from '../buttons/WarnButton.vue';
 
 <style scoped>
 td {
-    border: 2px solid rgba(228, 228, 228, 0.207);
+    border: 2px solid rgba(209, 213, 219, 0.365);
     padding-left: 8px;
+}
+
+@media screen and (max-width: 841px) {
+    .Buttons{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    td, th {
+        min-width: 20px;
+        text-align: center;
+        padding: 5px 10px;
+    }
 }
 </style>

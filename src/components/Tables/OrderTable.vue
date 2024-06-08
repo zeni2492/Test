@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full flex justify-center flex-col bg-white rounded-lg py-5 mt-5 text-gray-500">
+    <div class="TableSample">
 
         <div class="w-full flex justify-center">
             <div class="w-95% bg-gray-200 flex flex-row items-center">
@@ -18,7 +18,7 @@
                         <td>Currency</td>
                         <td>GST,%</td>
                         <td>Invoice status</td>
-                        <td class="w-20"></td>
+                        <td class="w-36"></td>
                         <td>Order status</td>
                         <td>Contact person</td>
                         <td>Receiver</td>
@@ -31,7 +31,7 @@
                         <td>EUR</td>
                         <td>9</td>
                         <td class="text-green-500">Paid</td>
-                        <td></td>
+                        <td style="w-8"></td>
                         <td class="text-green-500">Completed</td>
                         <td>Иван Петров</td>
                         <td>ivanov@ivanov.com</td>
@@ -76,7 +76,25 @@ import HeadLineButton from '../buttons/HeadLineButton.vue';
 
 <style scoped>
 td {
-    border: 2px solid rgba(211, 211, 211, 0.365);
+    border: 2px solid rgba(209, 213, 219, 0.365);
     padding-left: 8px;
+}
+
+@media screen and (max-width: 941px) {
+    .Buttons{
+        white-space: nowrap;
+        font-size: 12px;
+    }
+    
+    table {
+        overflow-x: auto;
+        display: block;
+    }
+
+    td, th {
+        min-width: 20px;
+        text-align: center;
+        padding: 0 5px;
+    }
 }
 </style>

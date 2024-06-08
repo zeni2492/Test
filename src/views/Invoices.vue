@@ -7,10 +7,6 @@
 </template>
 
 <script setup>
-import Actions from '../components/Actions.vue';
+import Actions from '../components/buttons/Actions.vue';
 import InvoiceTable from '../components/Tables/InvoiceTable.vue';
 </script>
-
-<style scoped>
-
-</style>

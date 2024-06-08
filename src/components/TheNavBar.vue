@@ -26,7 +26,7 @@ const props = defineProps({
 const emits = defineEmits(['updateActive'])
 </script>
 
-<style>
+<style scoped>
 li.active {
   position: relative;
   color: #171858;
@@ -43,5 +43,11 @@ li.active::after {
   background-color: #171858;
   /* Цвет подчеркивания */
   transition: 0.5s all;
+}
+
+@media screen and (max-width: 576px) {
+  img{
+    display: none;
+  }
 }
 </style>
