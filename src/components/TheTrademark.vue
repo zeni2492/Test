@@ -1,13 +1,13 @@
 <template>
     <div class="w-full flex justify-center bg-white rounded-lg TradeContainer">
-        <div class="w-95% h-20 FlexRow justify-between items-center text-xl TradeWrapper">
+        <div class="w-90% h-20 flex flex-row justify-between items-center text-xl TradeWrapper">
             <h2 class="text-Custom-Dark-Blue Number">Trademark: 40202026151S</h2>
 
-            <div class="FlexRow font-thin Components">
+            <div class="flex flex-row font-thin Components">
                 <div class="ImagesContainer">
                     <TheTrademarkImages/>
                 </div>
-                <div class="FlexRow ButtonsContainer">
+                <div class="flex flex-row ButtonsContainer">
                         <RenewButton />
                         <ToClientListButton/>
                 </div>
@@ -32,7 +32,7 @@ import ToClientListButton from '../components/buttons/ToClientListButton.vue';
         padding: 10px;
     }
     h2{
-        text-align: center;
+        text-align: c;
     }
     .Components{
         width: 100%;

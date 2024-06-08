@@ -24,7 +24,7 @@ import { ref } from 'vue';
 import TheHeader from './components/TheHeader.vue';
 import TheNavBar from './components/TheNavBar.vue';
 import TheIpDescription from './views/IpDescription.vue';
-import TheTrademark from './views/TheTrademark.vue';
+import TheTrademark from './components/TheTrademark.vue';
 import Contacts from "./views/Contacts.vue";
 import Grops from "./views/Grops.vue";
 import AdressHistory from "./views/AdressHistory.vue";
